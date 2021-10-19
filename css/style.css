@@ -1,0 +1,151 @@
+body{
+    background-color:white;
+}
+
+
+.flex-container-banner{
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: large;
+    color:white;
+}
+
+
+
+.grid-container{
+    justify-content: flex-end;
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.grid-item{
+    background-color: white;
+}
+
+.product-container{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+.picture-frame{
+    background-color:rgb(76, 76, 165);
+    padding:180px;
+
+}
+
+.words-container{
+    display: grid;
+    justify-content: space-around;
+
+}
+.words-item{
+    background-color:darkblue;
+    color: white;
+}
+
+.product-recom-container{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding:100px;
+}
+
+.botton{
+    background-color: wheat;
+    padding-block: 20px;
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.another-container{
+    background-color:lightcyan;
+    padding:180px;
+    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#second{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.another-2container{
+    background-color:rgb(13, 214, 214);
+    padding:180px;
+    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.another-3container{
+    background-color:rgb(21, 78, 78);
+    padding:180px;
+    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.another-4container{
+    background-color:rgb(108, 122, 122);
+    padding:180px;
+    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.fifth-container{
+    background-color:rgb(150, 114, 145);
+    padding: 180px;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+   justify-content: start;
+}
+
+.fifth-container-item{
+    background-color: lightskyblue;
+    height: 180px;
+    width: 180px;
+}
+
+
+.sixth-container{
+    background-color:rgb(108, 122, 122);
+    padding:180px;
+    flex-direction: row;
+}
+
+.sixth-container-item{
+    
+}
+
+.seventh-container{
+    background-color: lightskyblue;
+    height: 180px;
+    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.eighth-container{
+    background-color: rgb(110, 116, 90);
+    height: 180px;
+    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.ninth-container{
+    background-color: darkblue;;
+    padding:200px;
+    
+}
