@@ -152,114 +152,159 @@ section{
 
 
 .product-recom{
-    width: 100px;
+    width: 100%;
     height:300px;
     background: darkblue;
+    display: flex;
 
 }
 
 #product{
-    width: 50px;
+    width: 300px;
     height:100%;
     background: lightblue;
 }
 
-
-
-.botton{
-    background-color: wheat;
-    padding-block: 20px;
-    display: grid;
-    justify-items: center;
-    justify-content: space-around;
-}
-
-.another-container{
-    background-color:lightcyan;
-    padding:180px;
+.picture-frame-triangle{
+    display: flex;
     flex-direction: row;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-
-#second{
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.another-2container{
-    background-color:rgb(13, 214, 214);
-    padding:180px;
-    flex-direction: row;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-
-.another-3container{
-    background-color:rgb(21, 78, 78);
-    padding:180px;
-    flex-direction: row;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-
-.another-4container{
-    background-color:rgb(108, 122, 122);
-    padding:180px;
-    flex-direction: row;
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-
-}
-
-.fifth-container{
-    background-color:rgb(150, 114, 145);
-    padding: 180px;
-    flex-direction: row;
-    display: grid;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    background: darkblue;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-   justify-content: start;
+
+}
+#product-picture-triangle{
+    width: 50%;
+   height: 100%;
+    background: lightblue;
 }
 
-.fifth-container-item{
-    background-color: lightskyblue;
-    height: 180px;
-    width: 180px;
-}
-
-
-.sixth-container{
-    background-color:rgb(108, 122, 122);
-    padding:180px;
+.word-description{
+    display: flex;
     flex-direction: row;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background: darkblue;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+}
+#word-item{
+    width: 140px;
+    height: 100%;
+    background: lightblue;
+
 }
 
-.sixth-container-item{
-    
+.article{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 500px;
+    align-items: flex-start;
+    background: darkblue;
+
+}
+#article-title{
+    width:50%;
+    height:100px;
+    background: lightblue;
+    margin-left:40px;
+}
+#article-content{
+    width: 80%;
+    height:280px;
+    background: lightblue;
+    margin-left:40px;
+}
+#article-link{
+    width: 200px;
+    height: 40px;
+    background: lightblue;
+    margin-left:40px;
 }
 
-.seventh-container{
-    background-color: lightskyblue;
-    height: 180px;
-    flex-direction: row;
-    display:grid;
-    grid-template-columns: repeat(6, 1fr);
+.brands{
+    display: flex;
+    width: 100%;
+    height: 140px;
+    background: whitesmoke;
+}
+#brand-logo{
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    background: lightblue;
+    margin-left:40px;
+    grid-template-columns: (6, 1fr);
 }
 
-.eighth-container{
-    background-color: rgb(110, 116, 90);
-    height: 180px;
-    flex-direction: row;
-    display:grid;
+.press{
+    display: flex;
+    width: 100%;
+    height: 260px;
+    background: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+}
+
+#press-item{
+    width: 140px;
+    height: 80px;
+    background: lightblue;
+}
+
+#press-word-one{
+    width: 160px;
+    height: 80px;
+    background: lightblue;
+}
+
+#press-word-two{
+    width: 240px;
+    height: 80px;
+    background: lightblue;
+}
+
+.pictures-display{
+    width: 100%;
+    height: 400px;
+    background: darkblue;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+#display-item{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background: lightblue;
+}
+
+.copyright-frame{
+    width: 100%;
+    height: 400px;
+    background: darkblue;
     grid-template-columns: repeat(4, 1fr);
 }
-
-.ninth-container{
-    background-color: darkblue;;
-    padding:200px;
-    
+#logo-frame{
+    width: 160px;
+    height: 80px;
+    background: lightblue;
+}
+#about-frame{
+    width: 1620px;
+    height: 80px;
+    background: lightblue;
+}
+#help-frame{
+    width: 120px;
+    height: 80px;
+    background: lightblue;
+}
+#page-frame{
+    width: 200px;
+    height: 80px;
+    background: lightblue;
 }
