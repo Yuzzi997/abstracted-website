@@ -124,7 +124,7 @@ section{
 
 .picture-frame{
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
     width: 100%;
     height: 180px;
     align-items: center;
@@ -315,3 +315,13 @@ section{
     height: 60px;
     background: rgb(84, 84, 231);
 }
+
+
+
+    
+    @media (max-width: 700px) {
+        .picture-frame, .word, .shop-treatment, .product-picture {   
+            flex-flow: column;
+            align-content: flex-start;
+        }
+    }
