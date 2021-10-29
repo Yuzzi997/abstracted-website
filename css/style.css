@@ -233,12 +233,15 @@ section{
     background: whitesmoke;
 }
 #brand-logo{
+    display:flex;
+    flex-wrap:wrap;
     margin-top: 50px;
     width: 200px;
     height: 60px;
     background: lightblue;
     margin-left:40px;
-    grid-template-columns: (6, 1fr);
+    flex-direction: row;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .press{
@@ -320,8 +323,19 @@ section{
 
     
     @media (max-width: 700px) {
-        .picture-frame, .word, .shop-treatment, .product-picture {   
+        .picture-frame, .word, .product-picture, .pictures-display {   
             flex-flow: column;
-            align-content: flex-start;
+            align-content: flex;
+            width:100%;
+        }
+
+       .product-recom, .product {
+            flex-flow: column;
+            align-content: flex;
+            display: table-column;
+            
+        
         }
     }
+
+  
